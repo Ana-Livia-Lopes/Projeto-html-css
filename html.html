@@ -1,0 +1,114 @@
+<!-- Ana Lívia-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="./img/icon.png">
+    <title>html-css</title>
+</head>
+<body>
+    <header>
+        <div id="container">
+            <nav>
+                <ul>
+                    <li><h3><a href="index.html">início</a></h3></li>
+                    <li><h3><a href="html.html">html</a></h3></li>
+                    <li><h3><a href="css.html">css</a></h3></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="secao1">
+        <h1>O que é HTML?</h1>
+        <div id="empresa">
+            <div id="primeiro" class="mvv">
+                <h2>O que é</h2>
+                <div id="backg">
+                    <img src="img/seta.png" class="imgmvv">
+                </div>
+                <p> HTML é uma linguagem de marcação fundamental para a criação e formatação de sites na web, evoluindo para ser usada com CSS e JavaScript no desenvolvimento de aplicativos web dinâmicos.</p>
+            </div>
+            <div id="segundo" class="mvv">
+                <h2>Como funciona</h2>
+                <div id="backg">
+                    <img src="img/seta.png" class="imgmvv">
+                </div>
+                <p>Um site médio inclui diversas páginas HTML separadas que consistem em elementos formados por tags e atributos, renderizados por navegadores para exibição aos usuários.</p>
+            </div>
+        </section>
+        <section id="secao2">
+            <h1>Tags HTML Básicas</h1>
+            <h2>Parágrafos</h2>
+            <div class="caixas">
+                <div class="dia">
+                    <p>A tag < p > em HTML é usada para definir um parágrafo de texto, sendo cercada por uma tag de abertura < p > e uma de fechamento < /p > para indicar onde o parágrafo começa e termina. criando um bloco de texto separado em uma página web. Essa tag é essencial para a organização do conteúdo textual, permitindo uma leitura clara e estruturada para os usuários.</p>
+                </div>
+            </div>
+        </section>
+        <section id="secao3">
+            <h2>Listas</h2>
+            <div class="caixas">
+                <div class="dia2">
+                    <ol>
+                        <li>para produzir uma lista você pode utilizar as tags < ul >, < ol >, e < li >.</li>
+                        <li>< ul >: Define uma lista não ordenada, onde os itens não têm uma ordem específica.</li>
+                        <li>< ol >: Define uma lista ordenada, onde os itens são sequenciados numericamente ou alfabeticamente.</li>
+                        <li>< li >: Define um item de lista e pode ser usado dentro de < ul > ou < ol > para representar cada item na lista</li>
+                    </ol>
+             </div>
+            </div>
+        </section>
+        <section id="secao3">
+            <h2>Tabelas</h2>
+            <table border="1px">
+                <thead>
+                    <tr>
+                        <th>Passo</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1. Definir a tabela</td>
+                        <td>Use a tag < table > para iniciar a tabela.</td>
+                    </tr>
+                    <tr>
+                        <td>2. Adicionar cabeçalhos</td>
+                        <td>Use a tag < thead > para criar um cabeçalho e a tag < tr > para a linha, com tags < th > para cada coluna.</td>
+                    </tr>
+                    <tr>
+                        <td>3. Adicionar linhas</td>
+                        <td>Use a tag < tbody > para o corpo da tabela e a tag < tr > para cada linha, com tags < td > para as células.</td>
+                    </tr>
+                    <tr>
+                        <td>4. Adicionar rodapé</td>
+                        <td>Opcionalmente, use a tag < tfoot > para adicionar um rodapé com < tr > e < td > para as células.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="secao4">
+            <h2>Imagens</h2>
+            <div id="imagens">
+                <div class="imagem">
+                    <img id="imghtml" src="img/html.jpg" alt="imagem logo html">
+                </div>
+                <div class="imagem">
+                    <p>Para colocar uma imagem em HTML, use a tag < img >, especificando o caminho do arquivo de imagem no atributo src. Por exemplo: < img src="imagem.jpg" alt="Descrição da imagem" >. O atributo alt fornece uma descrição alternativa para a imagem, importante para acessibilidade.</p>
+                </div>
+            </div>
+        </section>
+        <section id="secao5">
+            <h2>Links</h2>
+            <div class="caixas">
+                <div class="dia3">
+                    <p>Para colocar um link em HTML, use a tag < a >, que é a tag de âncora. Coloque o URL de destino dentro do atributo href da tag. Por exemplo, < a href= "https://www.exemplo.com" > Texto do Link < /a > cria um link que leva o usuário ao endereço especificado. O "Texto do Link" é o texto clicável que será exibido na página. Para abrir o link em uma nova aba, adicione o atributo target="_blank", como em < a href="https://www.exemplo.com" target="_blank" > Texto do Link</a>.</p>
+                    <p>Ao final o seu link pode levar ao endereço desejado como esse ➡️ <a href="https://www.sp.senai.br/">Site senai</a></p>
+                </div>
+            </div>
+        </section>
+</body>
